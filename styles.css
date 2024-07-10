@@ -1,0 +1,94 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body{
+    margin:0;
+    text-align: center;
+}
+
+.header {
+    background-image: url("images/reno.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header > h1,h2 {
+    margin:auto;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+.header > h1 {
+    margin-bottom: 10px;
+    background:  #457B9D;
+    color:white;
+    font-weight:500;
+}
+
+.header > h2 {
+    width:300px;
+    height: 50px;
+    font-size: 18px;
+    margin-top:0;
+    background: #1D3557;
+    color: white;
+    font-weight:200;
+}
+
+.act-title {
+    background:  #F1FAEE;
+    margin:0;
+    padding:20px
+}
+
+.activities {
+    display:flex;
+    justify-content: space-around;
+    background:  #F1FAEE;
+}
+
+.activity {
+    width: 30%;
+}
+
+.activity > img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.footer {
+    text-align: center;
+    height: 180px;
+    padding: 80px;
+}
+
+.footer-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 50px;
+    width: 300px;
+    border-bottom:4px solid #1D3557;
+    height: 150px;
+    font-size: 12px;
+    background: #A8DADC;
+    border-radius: 3px;
+}
+
+.footer-card > img {
+    width: 100px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
